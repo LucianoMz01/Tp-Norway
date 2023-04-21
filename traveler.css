@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.mbody {
+    background-image: url(prueba\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+header {                          /*Incio Navegación*/
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 40px 0 0 0 ;
+    font-size: 18px;
+    height: 30px;
+}
+
+.logo {
+    position: absolute;
+    padding: 30px 0 0 80px;
+}
+
+
+.links1 {
+    height: 30px;
+    padding:0 0 0 90px;
+}
+
+.links1 a {
+    margin: 0 20px 0 0;
+    color: rgb(247, 247, 247);
+    font-weight: 600;
+
+}                                 /*Final Navegación*/
+
+                                   /*Caja 1 Inicio */
+.caja1 {
+    height: 530px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.caja1-1 {
+    padding: 150px 0 0 200px;
+    color: brown;
+    display: block;
+}
+
+.p1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(240, 240, 240);
+}
+
+.titulo1 {
+    font-size: 100px;
+    color: rgb(255, 196, 0);
+}
+
+.strong1 {
+    color:rgb(240, 240, 240); 
+}
+
+.p1-1 {
+    color: rgb(240, 240, 240);
+}       
+
+
+.casas {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    margin: 120px 0 0 80px ;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.precipicio {
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    margin:300px 0 0 80px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.playa {
+    width: 200px;
+    height: 300px;
+    margin: 150px 0 0 300px ;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+
+                            /*Caja 1 final*/
+
+.mfooter1 {                  /*Nav2 caja 1 inicio*/
+    font-size: 18px;
+    height: 100px;
+}
+
+.links2 {
+    display: flex;
+    align-items: start;
+    padding: 0 0 0 100px;
+}
+
+.links2 a {
+    margin: 0 10px 0 10px;
+    color: rgb(238, 238, 238);
+    font-weight: 500;                 /*nav2 caja 1 final*/
+}
+
+.caja2 {                         /*caja 2 inicio */
+    height: 600px;
+    background-color: rgb(22, 22, 22);
+}
+
+.tours {
+    display:flex ;
+    justify-content: center;
+    padding: 40px 0 70px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.toursimg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lago3, .rio5, .ciudad {
+    height: 390px;
+    width: 270px;
+    border-radius: 2%;
+}
+
+.lago3:hover, .rio5:hover, .ciudad:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.toursimg p {
+    color: aliceblue;
+}
+
+.dimg1 p {
+    margin:15px 0 0 55px ;
+}
+
+.dimg2 p {
+    margin: 15px 0 0 75px;
+}
+
+.dimg3 p  {
+    margin: 15px 0 0 80px;
+}                    /*fin caja 2 */
+
+
+.caja3 {                                 /*Caja 3 inicio*/
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.aboutus {
+    color:rgb(255, 196, 0) ;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.aboutus2 {
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+}                                       /*Caja 3 final*/
+
+.contact {                               /*Caja 4 inicio*/
+    text-align: center;
+    color:rgb(255, 196, 0) ;
+    font-size: 40px;
+    padding:50px;
+}
+
+.caja4 {
+    height: 110vh;
+    background-color: rgb(22, 22, 22);
+}
+
+.caja4 h2 {
+    font-size: 50px;
+}
+
+.formulario{
+    width: 70vh;
+    height: 40%;
+    padding: 0 0 0 450px;
+}
+
+.formulario2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+
+.block {
+    display: block;
+    color: aliceblue;
+}
+
+.fila1 {
+    width: 225px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.fila2 {
+    width: 480px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+#text{
+    width: 480px;
+    height: 200px;
+    padding: 10px 0 0 10px;
+    border-radius: 7px;
+    border-style: none;
+    resize: none;
+}
+
+
+.button {
+    color: #ffffff ;
+    border-radius: 7px ;
+    border-style: none ;
+    font-weight: bold;
+    background-color:rgb(255, 196, 0) ;
+    font-size: 15px;
+    margin: 40px 0 0 142px;
+    width: 180px;
+    height: 40px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+input {
+    border-color: #F53A50;
+    border-style: none;
+    padding: 0 0 0 10px;
+}
+
+::placeholder {
+    color: black;
+}
+.form2 {
+    margin-left: 25px;
+}                                         /*caja 4 final*/
+
+footer {                          /*footer inicio*/
+    background-color:rgb(255, 196, 0) ;
+    height: 90px;
+    display: grid;
+}
+
+.footh2 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.lab {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}                             /*Footer final*/
+
+                         /*Ultimo section inicio */
+.ultimo {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(22, 22, 22);
+    color: aliceblue;
+    height: 60px;
+    padding: 20px;
+}
+
+.las {
+    font-size: 1rem;
+}
